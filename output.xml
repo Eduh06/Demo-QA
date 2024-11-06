@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.13.0 on win32)" generated="2024-11-05T22:19:58.981961" rpa="false" schemaversion="5">
+<suite id="s1" name="TelaInicial" source="c:\Users\tenho\AppData\Local\Projetos\Robotframework\DEMOQA\TestCases\TelaInicial.robot">
+<test id="s1-t1" name="CT01_Validação dos itens na tela inicial" line="11">
+<kw name="Abrir Navegador" owner="TelaInicial.resources" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-11-05T22:19:59.705793" level="INFO">Opening browser 'chrome' to base url 'https://demoqa.com'.</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-11-05T22:19:59.704925" elapsed="7.443212"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-11-05T22:20:07.148759" elapsed="0.079177"/>
+</kw>
+<status status="PASS" start="2024-11-05T22:19:59.703031" elapsed="7.525929"/>
+</kw>
+<kw name="Dado que acesso o website DEMOQA" owner="TelaInicial.resources">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-11-05T22:20:07.241951" level="INFO">Opening browser 'chrome' to base url 'https://demoqa.com'.</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-11-05T22:20:07.240873" elapsed="6.196408"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-11-05T22:20:18.438876" level="INFO">Slept 5 seconds.</msg>
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-11-05T22:20:13.437749" elapsed="5.002428"/>
+</kw>
+<doc>Teste para acessar o website DemoQA</doc>
+<status status="PASS" start="2024-11-05T22:20:07.239244" elapsed="11.202079"/>
+</kw>
+<kw name="Fechar Navegador" owner="TelaInicial.resources" type="TEARDOWN">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-11-05T22:20:18.446260" elapsed="2.174827"/>
+</kw>
+<status status="PASS" start="2024-11-05T22:20:18.444170" elapsed="2.177809"/>
+</kw>
+<status status="PASS" start="2024-11-05T22:19:59.700045" elapsed="20.923677"/>
+</test>
+<status status="PASS" start="2024-11-05T22:19:58.993469" elapsed="21.636244"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="TelaInicial">TelaInicial</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-11-05T22:19:59.686141" level="ERROR">Error in file 'c:\Users\tenho\AppData\Local\Projetos\Robotframework\DEMOQA\TestCases\TelaInicial.robot' on line 6: Setting 'Test Setup' is not allowed in resource file.</msg>
+<msg time="2024-11-05T22:19:59.691072" level="ERROR">Error in file 'c:\Users\tenho\AppData\Local\Projetos\Robotframework\DEMOQA\TestCases\TelaInicial.robot' on line 7: Setting 'Test Teardown' is not allowed in resource file.</msg>
+<msg time="2024-11-05T22:19:59.693573" level="ERROR">Error in file 'c:\Users\tenho\AppData\Local\Projetos\Robotframework\DEMOQA\Resources\TelaInicial.resources.robot' on line 4: Error in file 'c:\Users\tenho\AppData\Local\Projetos\Robotframework\DEMOQA\TestCases\TelaInicial.robot' on line 10: Resource file with 'Test Cases' section is invalid.</msg>
+</errors>
+</robot>

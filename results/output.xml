@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.10.12 on linux)" generated="2024-11-03T21:49:05.823457" rpa="false" schemaversion="5">
+<suite id="s1" name="DemoQa" source="/home/eduardo/Projetos/RobotFramework/DemoQa">
+<suite id="s1-s1" name="TestCases" source="/home/eduardo/Projetos/RobotFramework/DemoQa/TestCases">
+<suite id="s1-s1-s1" name="TelaInicial" source="/home/eduardo/Projetos/RobotFramework/DemoQa/TestCases/TelaInicial.robot">
+<test id="s1-s1-s1-t1" name="CT01_Validação dos itens na tela inicial" line="16">
+<kw name="Dado que acesso o website DEMOQA">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-11-03T21:49:06.166982" level="INFO">Opening browser 'chrome' to base url 'https://demoqa.com'.</msg>
+<errors>
+<msg time="2024-11-03T21:52:35.420577" level="ERROR">Execution stopped by user.</msg>
+</errors>
+</robot>
