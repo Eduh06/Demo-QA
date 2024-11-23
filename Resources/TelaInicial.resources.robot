@@ -1,9 +1,7 @@
 *** Settings ***
-Documentation     Testes de automação para a página de formulário do DemoQA
-Library           SeleniumLibrary
-Resource        ../TestCases/TelaInicial.robot
-Resource        ../Variables/VariablesTelaInicial.robot
 
+Library           SeleniumLibrary
+Resource        ../Variables/VariablesTelaInicial.robot
 
 
 *** Keywords ***
@@ -18,7 +16,18 @@ Fechar Navegador
 
 Dado que acesso o website DEMOQA
     [Documentation]    Teste para acessar o website DemoQA
-    Sleep    5s
+    ${titulo_aba}=      Get Title
+    Should Be Equal    ${titulo_aba}    DEMOQA
 
+Quando website carregar completamente
+    Sleep    5s   
+    ${url_atual}=     Get Location
+    Should Be Equal   ${url_atual}    ${URL}
+        
 
-
+Então devo validar que existem os menus na página
+    Element Should Be Visible    ${BtnElements}
+    Element Should Be Visible    ${BtnForms}
+    Element Should Be Visible    ${BtnAlerts}
+    Element Should Be Visible    ${BtnWidgets}
+    Element Should Be Visible    ${BtnInteractions}

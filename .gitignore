@@ -1,0 +1,21 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Ambientes Virtuais
+venv/
+env/
+
+# Robot Framework
+output/
+*.html
+*.log
+
+# Configurações de IDEs
+.idea/
+.vscode/
+
+# Arquivos Sensíveis
+.env
