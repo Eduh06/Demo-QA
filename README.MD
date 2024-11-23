@@ -7,16 +7,16 @@ Este é um projeto de teste automatizado desenvolvido com o robot Framework para
 
 ## Estrutura do Projeto
 
--TestCases: Contém os arquivos .robot com os cenários de testes definidos para o site DEMOQA.
--Resources: Contém recursos reutilizáveis, como bibliotecas e keywords, que são usados nos testes.
--Variables: Contém arquivos com variáveis que são utilizadas ao longo dos testes para facilitar a manutenção.
+- TestCases: Contém os arquivos .robot com os cenários de testes definidos para o site DEMOQA.
+- Resources: Contém recursos reutilizáveis, como bibliotecas e keywords, que são usados nos testes.
+- Variables: Contém arquivos com variáveis que são utilizadas ao longo dos testes para facilitar a manutenção.
 
 ## Pré-requisitos
 
-Python (versão 3.x)
-Robot Framework
-SeleniumLibrary (para automação de testes em navegadores)
-Git (para controle de versão)
+- Python (versão 3.x)
+- Robot Framework
+- SeleniumLibrary (para automação de testes em navegadores)
+- Git (para controle de versão)
 
 ## Como baixar o projeto
 
@@ -41,8 +41,8 @@ robot TestCases/
 
 Contribuições são bem-vindas! Se você deseja contribuir para o projeto, siga estas etapas:
 
-Faça o fork do repositório.
-Crie uma nova branch para sua contribuição (git checkout -b minha-contribuicao).
-Faça suas alterações e commit (git commit -am 'Adicionando nova funcionalidade').
-Push para a sua branch (git push origin minha-contribuicao).
-Crie uma pull request para o branch principal.
+- Faça o fork do repositório.
+- Crie uma nova branch para sua contribuição (git checkout -b minha-contribuicao).
+- Faça suas alterações e commit (git commit -am 'Adicionando nova funcionalidade').
+- Push para a sua branch (git push origin minha-contribuicao).
+- Crie uma pull request para o branch principal.
